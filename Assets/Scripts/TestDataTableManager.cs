@@ -12,7 +12,7 @@ public class TestDataTableManager : MonoBehaviour
 
         var charData_1 = Tables.Character.GetById(1);
 
-        texts[0].text = charData_1.Name;
+        texts[0].text = charData_1.AgentName;
 
         var charData_2 = Tables.Character.GetById(2);
 
